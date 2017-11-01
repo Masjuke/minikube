@@ -43,7 +43,8 @@ Cons
 
 
 
-Installation and Setup
+## Installation and Setup
+
 Every tool has its own installation and setup process. Managing containers in the Cloud or other infrastructure depends a lot on how it is set up in the first place. In comparison, Kubernetes is not user-friendly.
 
 When it comes to installation and setup, it can give developers a hard time. Firstly, it needs to be reconfigured for every operating system(OS). The online documentation helps a lot in the process; however, things can get complex while building a custom environment. The only solution is to use Google to your advantage. Another key reason why Kubernetes is not easy to setup and install is the planning that is required before you start implementing. You need to plan the nodes and that can take a lot of time and effort. The last nail in the coffin is the need for manual integrations. Not everything can be automated, and that makes Kubernetes hard to manage.
@@ -59,9 +60,9 @@ Once the containers are deployed, the next step is to monitor the cluster of nod
 
 For Kubernetes, there is more than one way to monitor and log the clusters. You can use any of the following ways to do so:
 
-Logging: Kibana (ELK) or Elasticsearch
+Logging: [Kibana (ELK)](https://www.elastic.co/products/kibana) or [Elasticsearch](https://www.elastic.co)
 
-Monitoring: Grafana, Heapster, or Influx
+Monitoring: [Grafana], Heapster, or Influx
 
 For Docker, there is no in-built library or process for monitoring or logging. However, developers can use third-party applications for monitoring and logging purposes. Some of the good examples of 3rd party monitoring tools are Sumo Logic, Retrace, Reimann, and DataDog.
 
