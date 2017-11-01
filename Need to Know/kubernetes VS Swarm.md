@@ -1,12 +1,39 @@
 ## Description
 
 
+
 * Both Docker Swarm and Kubernetes are capable of running many of the same services but may require slightly different approaches to certain details. Getting to know each of the software can help make the decision when choosing the right tool for you container.
 
 * Docker provides a simple solution that is fast to get started with while Kubernetes aims to support higher demands with higher complexity. For much of the same reasons, Docker has been popular among developers who prefer simplicity and fast deployments. At the same time, Kubernetes is used in production environments by many high profile internet companies running popular services.
 
 
 ### Comparison
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![docker-architecture-1024x617](https://user-images.githubusercontent.com/32785359/32265621-5ce41928-bf16-11e7-98e9-fb4f922d1744.png)
+
+
+
+
+
+
+
+
+
+
 
 Docker Swarm
 
@@ -24,6 +51,34 @@ Cons
      Limited in functionality by what is available in the Docker API
      Limited fault tolerance
 ```
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
+ 
+ ![3mouxlchxm_upmb7l3yexftdtwxe8krwcf5imalsy1vavtajxonmwasexeaorriakkobvagguaqpoupujz0sn6xkumgkay0avchc3i7gnhlbm3-88sodtul1zbv_qpw0tjpodm-e](https://user-images.githubusercontent.com/32785359/32265634-68ad849c-bf16-11e7-9d71-fc57cacf5814.png)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 Kubernetes
