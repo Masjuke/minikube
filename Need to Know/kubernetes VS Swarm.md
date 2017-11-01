@@ -9,13 +9,13 @@
 ### Comparison
 
 Docker Swarm
+
 Pros
 
 ```shell
      Easy and fast setup
      Works with other existing Docker tools
      Lightweight installation
-     Open source
 ```
 
 Cons
@@ -27,6 +27,7 @@ Cons
  
 
 Kubernetes
+
 Pros
 
 ```shell
