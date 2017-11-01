@@ -74,6 +74,15 @@ MJuke-MacBook-Pro% kubectl cluster-info
 Kubernetes master is running at https://192.168.99.100:8443
 ```
 
+### Dashboard
+
+To access the [Kubernetes Dashboard](http://kubernetes.io/docs/user-guide/ui/), run this command in a shell after starting Minikube to get the address:
+
+```shell
+MJuke-MacBook-Pro% minikube dashboard
+Opening kubernetes dashboard in default browser...
+```
+
 
 
 
