@@ -6,17 +6,17 @@
 
 * Prequisites
 
-      [Installing Minikube](https://github.com/Masjuke/minikube/blob/master/Prequisites/Installation.md)
-      [Administering Cluster](https://github.com/Masjuke/minikube/blob/master/Prequisites/Administering-Cluster.md)
-      [Create own namespace](https://github.com/Masjuke/minikube/blob/master/Prequisites/namespace.md)
-      [Running & Deploy Apps](https://github.com/Masjuke/minikube/blob/master/Prequisites/Running%20Apps.md)
-      [Replicas](https://github.com/Masjuke/minikube/blob/master/Prequisites/Replicas.md)
-      [Scheduler](https://github.com/Masjuke/minikube/blob/master/Prequisites/Scheduler.md)
-      [Managing Services](https://github.com/Masjuke/minikube/blob/master/Prequisites/Service.md)
-      [Managing Memory](https://github.com/Masjuke/minikube/blob/master/Prequisites/Memory.md)
-      [Managing CPUs](https://github.com/Masjuke/minikube/blob/master/Prequisites/CPUs.md)
-      [Managing Volume](https://github.com/Masjuke/minikube/blob/master/Prequisites/Volume.md)
-      [Monitoring Containers](https://github.com/Masjuke/minikube/blob/master/Prequisites/Monitoring.md)
+      [Installing Minikube](Prequisites/Installation.md)
+      [Administering Cluster](Prequisites/Administering-Cluster.md)
+      [Create own namespace](Prequisites/namespace.md)
+      [Running & Deploy Apps](Prequisites/Running%20Apps.md)
+      [Replicas](Prequisites/Replicas.md)
+      [Scheduler](Prequisites/Scheduler.md)
+      [Managing Services](Prequisites/Service.md)
+      [Managing Memory](Prequisites/Memory.md)
+      [Managing CPUs](Prequisites/CPUs.md)
+      [Managing Volume](Prequisites/Volume.md)
+      [Monitoring Containers](Prequisites/Monitoring.md)
 
 
 
