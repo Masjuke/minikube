@@ -12,5 +12,5 @@ This installation is intended to Mac laptop since this is the most apropriate en
     * CPUs
     * Memory and so on
 
-
+to be continued ...
 
