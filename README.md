@@ -28,8 +28,6 @@
       * Managing CPUs
       * Managing Volume
       * Monitoring Containers
-      * SSH to a container
-      * Managing Memory and CPUs resources
 
 ## What is Minikube?
 
