@@ -19,3 +19,13 @@ Kubernetes can run on various platforms: from your laptop, to VMs on a cloud pro
 If you just want to “kick the tires” on Kubernetes, use the local Docker-based solution using MiniKube.
 
 
+
+### Local Machine Solution
+
+
+```shell
+
+Minikube is the recommended method for creating a local, single-node Kubernetes cluster for development and testing. Setup is completely automated and doesn’t require a cloud provider account.
+
+```
+
