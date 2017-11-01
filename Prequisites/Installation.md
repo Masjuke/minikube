@@ -16,23 +16,45 @@
     Memory and so on
 ```
 
-* In order to work with Minikube, we should have Kubectl and Minikube installed + some virtualization drivers.
-For OS X, install xhyve driver, VirtualBox, or VMware Fusion, then Kubectl and Minkube
+* macOS
+    * [xhyve driver](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#xhyve-driver), [VirtualBox](https://www.virtualbox.org/wiki/Downloads), or [VMware Fusion](https://www.vmware.com/products/fusion)
 
 
 ```shell
 
-* Kubectl
+# Downloading Kubectl for minikube command line
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/darwin/amd64/kubectlwebserver-2022867364-r5zzl
 
+# Grant access for kubectl
 chmod +x ./kubectl
 
+# move kubectl to /usr/ PATH
 sudo mv ./kubectl /usr/local/bin/kubectl
 
-* Minikube
+# Downloading Minikube
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.21.0/minikube-darwin-amd64
 
+# Gives access and move to usr PATH
 chmod +x minikube && sudo mv minikube /usr/local/bin/
 ```
+
+```shell
+# After all dependencies is done then we can start minikube to use virtualbox driver
+
+MJuke-MacBook-Pro% minikube start --vm-driver=virtualbox
+Starting local Kubernetes v1.8.0 cluster...
+Starting VM...
+Getting VM IP address...
+Moving files into cluster...
+Setting up certs...
+Connecting to cluster...
+Setting up kubeconfig...
+Starting cluster components...
+Kubectl is now configured to use the cluster.
+
+
+```
+
+
 
 
