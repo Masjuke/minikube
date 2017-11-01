@@ -50,6 +50,7 @@ Cons
 ```shell
      Limited in functionality by what is available in the Docker API
      Limited fault tolerance
+     Vendor lock in
 ```
  
  
