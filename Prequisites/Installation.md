@@ -87,4 +87,36 @@ Opening kubernetes dashboard in default browser...
 
 
 
+### Docker daemon
+
+To be able to work with the docker daemon on your mac/linux host use the docker-env command in your shell:
+
+```shell
+eval $(minikube docker-env)
+```
+
+You should now be able to use docker on the command line on your host mac/linux machine talking to the docker daemon inside the minikube VM:
+
+```shell
+docker ps
+```
+
+```shell
+MJuke-MacBook-Pro% eval $(minikube docker-env)
+```
+
+```shell
+# Run docker ps inside docker daemon on minikube
+MJuke-MacBook-Pro% docker ps
+CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS              PORTS                                                                NAMES
+a0fc842d3c41        gcr.io/google_containers/heapster-influxdb-amd64      "influxd --config ..."   42 minutes ago      Up 42 minutes                                                                            k8s_influxdb_influxdb-grafana-qz4b4_kube-system_3f53d80a-beb5-11e7-aa72-080027b8167f_3
+5087a5a884a5        coredns/coredns                                       "/coredns -conf /e..."   43 minutes ago      Up 43 minutes                                                                            k8s_coredns_coredns-6b4fd7784-5w7s7_kube-system_3fb4ac44-beb5-11e7-aa72-080027b8167f_1
+5d71ba8d141d        registry                                              "/entrypoint.sh /e..."   43 minutes ago      Up 43 minutes                                                                            k8s_registry_registry-xdgmt_kube-system_3fc74cd7-beb5-11e7-aa72-080027b8167f_1
+cdb47308e11a        gcr.io/google_containers/pause-amd64:3.0              "/pause"                 43 minutes ago      Up 43 minutes                                                                            k8s_POD_registry-xdgmt_kube-system_3fc74cd7-beb5-11e7-aa72-080027b8167f_1
+6ea23c14dd34        gcr.io/google_containers/heapster                     "/heapster --sourc..."   43 minutes ago      Up 43 minutes                                                                            k8s_heapster_heapster-shnpp_kube-system_3f4431b5-beb5-11e7-aa72-080027b8167f_1
+b21f959bbd81        gcr.io/google_containers/pause-amd64:3.0              "/pause"                 43 minutes ago      Up 43 minutes                                                                            k8s_POD_heapster-shnpp_kube-system_3f4431b5-beb5-11e7-aa72-080027b8167f_1
+94a3399c8fe9        gcr.io/google_containers/kubernetes-dashboard-amd64   "/dashboard --inse..."   43 minutes ago      Up 43 minutes                                                                            k8s_kubernetes-dashboard_kubernetes-dashboard-8jpgr_kube-system_3f210025-beb5-11e7-aa72-080027b8167f_1
+```
+
+
 
