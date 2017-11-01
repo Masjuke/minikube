@@ -51,8 +51,27 @@ Connecting to cluster...
 Setting up kubeconfig...
 Starting cluster components...
 Kubectl is now configured to use the cluster.
+```
 
+```shell
+# Minikube is starting and now let see which version do we used
+MJuke-MacBook-Pro% minikube version
+minikube version: v0.23.0
 
+# Check minikube status correctly 
+MJuke-MacBook-Pro% minikube status
+minikube: Running
+cluster: Running
+kubectl: Correctly Configured: pointing to minikube-vm at 192.168.99.100
+
+# Check node version
+MJuke-MacBook-Pro% kubectl get nodes
+NAME       STATUS    ROLES     AGE       VERSION
+minikube   Ready     <none>    14h       v1.8.0
+
+# Run kubectl cluster-info to finds out running IP
+MJuke-MacBook-Pro% kubectl cluster-info
+Kubernetes master is running at https://192.168.99.100:8443
 ```
 
 
