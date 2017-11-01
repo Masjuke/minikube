@@ -71,7 +71,7 @@ Monitoring: [Grafana](https://grafana.com), [Heapster](https://deis.com/blog/201
 
 
 For Docker, there is no in-built library or process for monitoring or logging. However, developers can use third-party applications for monitoring and logging purposes. Some of the good examples of 3rd party monitoring tools are Sumo Logic, Retrace, Reimann, and DataDog.
-```
+
 
 + Size and Performance
 
