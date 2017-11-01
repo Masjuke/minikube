@@ -9,27 +9,35 @@
 Docker Swarm
 Pros
 
+```shell
 Easy and fast setup
 Works with other existing Docker tools
 Lightweight installation
 Open source
+```
 
 Cons
 
+```shell
 Limited in functionality by what is available in the Docker API
 Limited fault tolerance
+```
  
 
 Kubernetes
 Pros
 
+```shell
 Open source and modular
 Runs well on any operating systems
 Easy service organisation with pods
 Backed by years of expert experience
+```
 
 Cons
 
+```shell
 Laborious to install and configure
 Incompatible with existing Docker CLI and Compose tools
+```
 
