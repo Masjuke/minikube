@@ -11,37 +11,37 @@
 Docker Swarm
 Pros
 
-
-   * Easy and fast setup
-   * Works with other existing Docker tools
-   * Lightweight installation
-   * Open source
-
+```shell
+     Easy and fast setup
+     Works with other existing Docker tools
+     Lightweight installation
+     Open source
+```
 
 Cons
 
-
-   * Limited in functionality by what is available in the Docker API
-   * Limited fault tolerance
-
+```shell
+     Limited in functionality by what is available in the Docker API
+     Limited fault tolerance
+```
  
 
 Kubernetes
 Pros
 
-
-   * Open source and modular
-   * Runs well on any operating systems
-   * Easy service organisation with pods
-   * Backed by years of expert experience
-
+```shell
+     Open source and modular
+     Runs well on any operating systems
+     Easy service organisation with pods
+     Backed by years of expert experience
+```
 
 Cons
 
-
-   * Laborious to install and configure
-   * Incompatible with existing Docker CLI and Compose tools
-
+```shell
+     Laborious to install and configure
+     Incompatible with existing Docker CLI and Compose tools
+```
 
 ## Installation and Setup
 
@@ -57,7 +57,7 @@ Docker, thanks to its Command Line Interface (CLI), is easy to setup and manage.
 Overall, Docker wins hands-down when it comes to setup and installation.
 
 
-+ Monitoring and Logging
+* Monitoring and Logging
 
 
 Once the containers are deployed, the next step is to monitor the cluster of nodes. Both Kubernetes and Docker succeed in offering a good monitoring and logging process.
@@ -73,7 +73,7 @@ Monitoring: [Grafana](https://grafana.com), [Heapster](https://deis.com/blog/201
 For Docker, there is no in-built library or process for monitoring or logging. However, developers can use third-party applications for monitoring and logging purposes. Some of the good examples of 3rd party monitoring tools are Sumo Logic, Retrace, Reimann, and DataDog.
 
 
-+ Size and Performance
+* Size and Performance
 
 The basic philosophy behind the use of container services is the scalability they offer. Both platforms are highly scalable and support thousands of containers at a particular time. Initially, Docker didn’t have a great support for a large number of containers. However, with new updates, it can support as many containers as Kubernetes. Both the systems roughly support 1000 node clusters. The 1000 node clusters can support up to 30,000 containers.
 
@@ -94,8 +94,8 @@ Let’s try to understand the differences we have discussed until now, using a t
 
 ### Conclusion
 
-Kubernetes is widely accepted by the community of developers, despite the hard installation process. The sole reason behind its popularity is the flexibility it offers and also the fact that it is backed by Google, one of the leading tech giants. Docker, on the other hand, has a small community. It is growing slowly, but it is hard to speculate whether it will ever beat Kubernetes.
+*Kubernetes is widely accepted by the community of developers, despite the hard installation process. The sole reason behind its popularity is the flexibility it offers and also the fact that it is backed by Google, one of the leading tech giants. Docker, on the other hand, has a small community. It is growing slowly, but it is hard to speculate whether it will ever beat Kubernetes.
 
-The large community of Kubernetes means new tools, features, and support. If you are a small developer, who wants to learn container services, then Docker can be a great place to get started with. And, that’s the sole reason why you will find beginner educational content surrounding Docker rather than Kubernetes.
+*The large community of Kubernetes means new tools, features, and support. If you are a small developer, who wants to learn container services, then Docker can be a great place to get started with. And, that’s the sole reason why you will find beginner educational content surrounding Docker rather than Kubernetes.
 
 
