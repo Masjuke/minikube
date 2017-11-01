@@ -15,6 +15,22 @@
 
 <img src="https://github.com/kubernetes/minikube/raw/master/logo/logo.png" width="100">
 
+
+      * Installing Minikube
+      * Administering Cluster
+      * Create own namespace
+      * Running & Deploy Apps
+      * What is Daemon Sets
+      * Replicas
+      * Scheduler
+      * Managing Services
+      * Managing Memory
+      * Managing CPUs
+      * Managing Volume
+      * Monitoring Containers
+      * SSH to a container
+      * Managing Memory and CPUs resources
+
 ## What is Minikube?
 
 Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
