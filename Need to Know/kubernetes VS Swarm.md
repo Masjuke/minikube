@@ -62,7 +62,7 @@ For Kubernetes, there is more than one way to monitor and log the clusters. You 
 
 Logging: [Kibana (ELK)](https://www.elastic.co/products/kibana) or [Elasticsearch](https://www.elastic.co)
 
-Monitoring: [Grafana], Heapster, or Influx
+Monitoring: [Grafana](https://grafana.com), [Heapster](https://deis.com/blog/2016/monitoring-kubernetes-with-heapster/), or [Influx](https://influx.com)
 
 For Docker, there is no in-built library or process for monitoring or logging. However, developers can use third-party applications for monitoring and logging purposes. Some of the good examples of 3rd party monitoring tools are Sumo Logic, Retrace, Reimann, and DataDog.
 
