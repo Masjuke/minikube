@@ -118,5 +118,38 @@ b21f959bbd81        gcr.io/google_containers/pause-amd64:3.0              "/paus
 94a3399c8fe9        gcr.io/google_containers/kubernetes-dashboard-amd64   "/dashboard --inse..."   43 minutes ago      Up 43 minutes                                                                            k8s_kubernetes-dashboard_kubernetes-dashboard-8jpgr_kube-system_3f210025-beb5-11e7-aa72-080027b8167f_1
 ```
 
+* When we look from inside docker daemon it is already running docker container by default
+
+### Stop minikube cluster
+```shell
+minikube stop
+```
+
+### Delete minikube cluster
+```shell
+minikube delete
+```
+
+### Some notes
+
+* Minikube creates a Virtual Machine that includes Kubernetes and a Docker daemon
+* You can specify the specific version of Kubernetes for Minikube to use by adding the --kubernetes-version string to the minikube start command. For example, to run version v1.7.3
+
+
+
+in this part we have finished how to install minikube on local machine and run kubectl command 
+
+    Version
+    Nodes info
+    Cluster Info
+    Version
+    Starting cluster
+    Launched Dashboard
+
+we'll continue in different section on readme page
+
+### Thanks
+
+
 
 
