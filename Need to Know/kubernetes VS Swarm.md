@@ -74,32 +74,18 @@ Performance wise, Kubernetes holds a good ground against Docker. However, the re
 Let’s try to understand the differences we have discussed until now, using a table.
 
 
-Kubernetes Vs. Docker
-Kubernetes
+### Kubernetes Vs. Docker
 
-Docker
+|Kubernetes|Docker|
+|----------|------|
+|Most mature solution in the market.|Docker offers good features, but limited by its API.|
+|Kubernetes is also the most popular solution in the market.|Docker’s market is relatively weaker compared to Kubernetes.|
+|Kubernetes is hard to setup and configure.|Docker’s setup and installation is easy.|
+|Kubernetes offers inbuilt logging and monitoring tools.|Docker only supports 3rd party monitoring and logging tools.|
+|CPU utilization is a big factor in autoscaling.|It is possible to scale services manually.|
 
-Most mature solution in the market.
+### Conclusion
 
-Docker offers good features, but limited by its API.
-
-Kubernetes is also the most popular solution in the market.
-
-Docker’s market is relatively weaker compared to Kubernetes.
-
-Kubernetes is hard to setup and configure.
-
-Docker’s setup and installation is easy.
-
-Kubernetes offers inbuilt logging and monitoring tools.
-
-Docker only supports 3rd party monitoring and logging tools.
-
-CPU utilization is a big factor in autoscaling.
-
-It is possible to scale services manually.
-
-Conclusion
 Kubernetes is widely accepted by the community of developers, despite the hard installation process. The sole reason behind its popularity is the flexibility it offers and also the fact that it is backed by Google, one of the leading tech giants. Docker, on the other hand, has a small community. It is growing slowly, but it is hard to speculate whether it will ever beat Kubernetes.
 
 The large community of Kubernetes means new tools, features, and support. If you are a small developer, who wants to learn container services, then Docker can be a great place to get started with. And, that’s the sole reason why you will find beginner educational content surrounding Docker rather than Kubernetes.
