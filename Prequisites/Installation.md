@@ -83,6 +83,8 @@ MJuke-MacBook-Pro% minikube dashboard
 Opening kubernetes dashboard in default browser...
 ```
 
+<img width="1432" alt="screen shot 2017-11-02 at 1 27 05 am" src="https://user-images.githubusercontent.com/32785359/32290571-0f07e070-bf6d-11e7-9c63-479268dbeaeb.png">
+
 
 
 
