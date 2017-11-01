@@ -6,27 +6,30 @@
 
 ### Prequisites
 
-* [Installing Minikube](Prequisites/Installation.md)
+   * [Installing Minikube](Prequisites/Installation.md)
 
-* [Administering Cluster](Prequisites/Administering-Cluster.md)
+  * [Administering Cluster](Prequisites/Administering-Cluster.md)
 
-* [Create own namespace](Prequisites/namespace.md)
+  * [Create own namespace](Prequisites/namespace.md)
 
-* [Running & Deploy Apps](Prequisites/Running%20Apps.md)
+  * [Running & Deploy Apps](Prequisites/Running%20Apps.md)
 
-* [Replicas](Prequisites/Replicas.md)
+  * [Replicas](Prequisites/Replicas.md)
 
-* [Scheduler](Prequisites/Scheduler.md)
+  * [Scheduler](Prequisites/Scheduler.md)
 
-* [Managing Services](Prequisites/Service.md)
+  * [Managing Services](Prequisites/Service.md)
 
-* [Managing Memory](Prequisites/Memory.md)
+  * [Managing Memory](Prequisites/Memory.md)
 
-* [Managing CPUs](Prequisites/CPUs.md)
+  * [Managing CPUs](Prequisites/CPUs.md)
 
-* [Managing Volume](Prequisites/Volume.md)
+  * [Managing Volume](Prequisites/Volume.md)
 
-* [Monitoring Containers](Prequisites/Monitoring.md)
+  * [Monitoring Containers](Prequisites/Monitoring.md)
+  
+  
+
 
 
 
