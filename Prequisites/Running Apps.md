@@ -40,3 +40,8 @@ deployment "my-nginx" created
 
 * New app deployed to cluster namespace development based on image from minikube dashboard
 
+PODs is part of namespace development and we just added 1 container which is "mynginx" inside the pods under the development namespace.
+
+Minikube onlh have one nodes but can arrange virtual cluster using namespaces, but we can put container as much as we can to the pods.
+
+
