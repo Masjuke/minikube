@@ -1,5 +1,5 @@
 
-## Administering cluster
+## Administering Minikube
 
 On first chapter we allready installed minikube, get known with nodes info and cluster also run minikube dashboard for to makesure minikube is run as expected
 
