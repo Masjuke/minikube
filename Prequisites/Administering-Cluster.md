@@ -72,7 +72,7 @@ $ Minikube dashboard
 ```
 
 
-<img width="1432" alt="screen shot 2017-11-02 at 1 48 15 pm" src="https://user-images.githubusercontent.com/32785359/32313259-8d711a3c-bfd4-11e7-80f8-39b3fb7291f4.png">
+<img width="1000" alt="screen shot 2017-11-02 at 1 48 15 pm" src="https://user-images.githubusercontent.com/32785359/32313259-8d711a3c-bfd4-11e7-80f8-39b3fb7291f4.png">
 
 
 
