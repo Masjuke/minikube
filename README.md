@@ -6,9 +6,9 @@
 
 ### Prequisites
 
-   * [Installing Minikube](Prequisites/Installation.md)
+  * [Installing Minikube](Prequisites/Installation.md)
 
-  * [Administering Cluster](Prequisites/Administering-Cluster.md)
+  * [Administering Minikube](Prequisites/Administering-Cluster.md)
 
   * [Create own namespace](Prequisites/namespace.md)
 
