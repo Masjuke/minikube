@@ -30,21 +30,21 @@ Optional Cluster Services
 ### Securing a cluster
 
 ```shell
-Certificates describes the steps to generate certificates using different tool chains.
+- Certificates describes the steps to generate certificates using different tool chains.
 
-Kubernetes Container Environment describes the environment for Kubelet managed containers on a Kubernetes node.
+- Kubernetes Container Environment describes the environment for Kubelet managed containers on a Kubernetes node.
 
-Controlling Access to the Kubernetes API describes how to set up permissions for users and service accounts.
+- Controlling Access to the Kubernetes API describes how to set up permissions for users and service accounts.
 
-Authenticating explains authentication in Kubernetes, including the various authentication options.
+- Authenticating explains authentication in Kubernetes, including the various authentication options.
 
-Authorization is separate from authentication, and controls how HTTP calls are handled.
+- Authorization is separate from authentication, and controls how HTTP calls are handled.
 
-Using Admission Controllers explains plug-ins which intercepts requests to the Kubernetes API server after authentication and authorization.
+- Using Admission Controllers explains plug-ins which intercepts to Kubernetes API after authentication authorization.
 
-Using Sysctls in a Kubernetes Cluster describes to an administrator how to use the sysctl command-line tool to set kernel parameters .
+- Using Sysctls Kubernetes Cluster describes to an administrator to usesysctl command-line tool to set kernel parameters .
 
-Auditing describes how to interact with Kubernetes’ audit logs.
+- Auditing describes how to interact with Kubernetes’ audit logs.
 ```
 
 
