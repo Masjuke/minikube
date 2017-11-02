@@ -54,6 +54,13 @@ There's not much we can do to manage cluster in minikube cause limited by featur
 }
 ```
 
-
+    # we can see new namespace added with labels development
+    kubectl get namespace --show-labels
+    NAME          STATUS    AGE       LABELS
+    default       Active    1d        <none>
+    development   Active    25m       name=development
+    kube-public   Active    1d        <none>
+    kube-system   Active    1d        <none>
+    testing       Active    1d        <none>
 
 
