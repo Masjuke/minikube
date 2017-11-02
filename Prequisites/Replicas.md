@@ -18,3 +18,18 @@ kubectl scale --replicas=4 deployment/mynginx
 deployment "mynginx" scaled
 ```
 
+
+                % kubectl get replicaset
+                NAME                  DESIRED   CURRENT   READY     AGE
+                my-nginx-69d54fff74   4         4         4         1h
+                mynginx-59f44f8b8b    1         1         1         1h
+                
+                # replicaset based on namespace
+                MJuke-MacBook-Pro% kubectl get replicaset --namespace=development
+                NAME                 DESIRED   CURRENT   READY     AGE
+                mynginx-59f44f8b8b   4         4         4         1h
+
+                MJuke-MacBook-Pro% kubectl get replicaset --namespace=default
+                NAME                  DESIRED   CURRENT   READY     AGE
+                my-nginx-69d54fff74   4         4         4         1h
+                mynginx-59f44f8b8b    1         1         1         1h
