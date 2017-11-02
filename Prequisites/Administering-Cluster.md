@@ -63,6 +63,23 @@ Above definition to consider is for kubernetes, since we are going to test in lo
       Setting up kubeconfig...
       Starting cluster components...
       Kubectl is now configured to use the cluster.
+      
+      
+
+```shell
+# Run dashboard to have general overview
+$ Minikube dashboard
+```
+
+
+<img width="1432" alt="screen shot 2017-11-02 at 1 48 15 pm" src="https://user-images.githubusercontent.com/32785359/32313259-8d711a3c-bfd4-11e7-80f8-39b3fb7291f4.png">
+
 
 
  
+ ```shell
+ #Limiting Minikube memory
+ 
+ MJuke-MacBook-Pro% minikube config set  memory 3000
+These changes will take effect upon a minikube delete and then a minikube start
+```
