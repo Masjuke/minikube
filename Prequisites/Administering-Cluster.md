@@ -91,7 +91,8 @@ $ Minikube dashboard
                   * Replica sets
                   * Replication Controllers
                   * Statefull sets
- And So on ...
+ 
+ And So on ... we'll discuss on separate chapter for each menu of minikube dashboard
 
  
  ```shell
