@@ -74,7 +74,24 @@ $ Minikube dashboard
 
 <img width="1000" alt="screen shot 2017-11-02 at 1 48 15 pm" src="https://user-images.githubusercontent.com/32785359/32313259-8d711a3c-bfd4-11e7-80f8-39b3fb7291f4.png">
 
+### Dashboard Menus
 
+                * Cluster
+                  * namespace
+                  * Nodes
+                  * Persistent Volume
+                  * Roles
+                  * Storage Classes
+
+                * Workload
+                  * Daemon sets
+                  * Deployments
+                  * Jobs
+                  * Pods
+                  * Replica sets
+                  * Replication Controllers
+                  * Statefull sets
+ And So on ...
 
  
  ```shell
