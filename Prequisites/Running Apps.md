@@ -103,7 +103,7 @@ webserver-907329357-dnycx   0/1       ContainerCreating   0          2m
 And now by labels:
 
 ```
-➜ kubectl get pods -l app=goweb --show-labels
+➜ kubectl get pods -l app=webserver --show-labels
 NAME                     READY     STATUS              RESTARTS   AGE       LABELS
 webserver-907329357-dnycx    0/1       ContainerCreating   0          13m       app=webserver,pod-template-hash=2461254821,stage=testing,what=test
 ```
