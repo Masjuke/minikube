@@ -86,7 +86,7 @@ spec:
         environment: production
     spec:
       containers:
-      - name: goweb
+      - name: webserver
         image: juke/webserver:1.0
         ports:
         - containerPort: 8080
@@ -160,7 +160,7 @@ Remember that in order to get a detailed insight into pods and deployments with 
 
 ```bash
 ➜ kubectl logs webserver-907329357-dnycx 
-2016/12/12 06:33:26 Starting goweb 1.0
+2017/11/05 06:33:26 Starting webserver 1.0
 ```
 
 
