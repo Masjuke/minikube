@@ -101,3 +101,25 @@ $ Minikube dashboard
  MJuke-MacBook-Pro% minikube config set  memory 3000
 These changes will take effect upon a minikube delete and then a minikube start
 ```
+
+```bash
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: /Users/marjuki/.minikube/ca.crt
+    server: https://192.168.99.101:8443
+  name: minikube
+contexts:
+- context:
+    cluster: minikube
+    user: minikube
+  name: minikube
+current-context: minikube
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: /Users/marjuki/.minikube/client.crt
+    client-key: /Users/marjuki/.minikube/client.key
+```
