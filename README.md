@@ -16,10 +16,6 @@
 
   * [Replicas](Prequisites/Replicas.md)
 
-  * [Scheduler](Prequisites/Scheduler.md)
-
-  * [Managing Services](Prequisites/Service.md)
-
   * [Managing Memory](Prequisites/Memory.md)
 
   * [Managing CPUs](Prequisites/CPUs.md)
